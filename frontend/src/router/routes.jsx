@@ -1,0 +1,8 @@
+import { createBrowserRouter } from "react-router-dom"
+import Tela_inicial from "../pages/Tela_Inicial/Tela_inicial"
+
+
+const router = createBrowserRouter([
+    { path: `/`, element: <Tela_inicial /> },
+
+])
