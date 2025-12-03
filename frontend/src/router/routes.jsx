@@ -6,3 +6,5 @@ const router = createBrowserRouter([
     { path: `/`, element: <Tela_inicial /> },
 
 ])
+
+export default router

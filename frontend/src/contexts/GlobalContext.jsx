@@ -1,10 +1,15 @@
-export const GlobalContext = createContext();
-export const GlobalContextProvider = ({ children }) => {}
+import { createContext } from 'react';
 
-<GlobalContext.Provider
+export const GlobalContext = createContext();
+
+export const GlobalContextProvider = ({ children }) => {
+    return (
+        <GlobalContext.Provider
             value={{
                 
             }}
         >
             {children}
         </GlobalContext.Provider>
+    )
+}
