@@ -1,0 +1,103 @@
+/*#54A2A7; cor do botão no login */
+/* #EDEDED;  cor da navbar*/
+ /*#FFFFFF;  cor de fundo das telas */
+
+body {
+    background-color: #FFFFFF;
+
+    margin: 0;
+}
+
+.toda-tela-content{
+    border: 1px solid red;
+
+    width: 100%;
+    height: 97vh;
+
+   display: flex;
+   flex-direction: column;
+}
+
+.div-superior-logo {
+    border: 1px solid green;
+
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    background-color: #EDEDED;
+}
+
+.div-area-principal-content {
+    border: 1px solid blue;
+
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 90%;
+
+    background-color: #FFFFFF;
+}
+
+/*  PARTE ESQUERDA DA TELA DE LOGIN */
+
+.parte-esquerda-content {
+    border: 1px solid palevioletred;
+
+    width: 45%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    justify-content: space-evenly;
+}
+
+
+.legendas-content {
+    border: 1px solid red;
+
+    width: 45%;
+    height: 29%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.titulo {
+    font-family: "Inter", sans-serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #202022;
+}
+
+.descricao {
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #202022;
+}
+
+p {
+    margin: 0; 
+  }
+
+/* ------------------------- */
+
+/*  PARTE DIREITA DA TELA DE LOGIN */
+
+.parte-direita-content {
+    border: 1px solid brown;
+
+    width: 55%;
+    height: 100%;
+}
+
+/* ------------------ */
