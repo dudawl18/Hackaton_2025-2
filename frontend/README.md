@@ -1,16 +1,66 @@
-# React + Vite
+# Help Class
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Plataforma educacional desenvolvida para facilitar o acompanhamento escolar de responsáveis e alunos.
 
-Currently, two official plugins are available:
+## 👥 Equipe
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Zaya
+* Maria Eduarda
+* Mayara
+* Fernando
+* Juska
 
-## React Compiler
+## 🚀 Tecnologias
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
+* JavaScript
+* React
+* HTML
+* CSS
+* React Router DOM
 
-## Expanding the ESLint configuration
+### Backend (não implementado)
+* Node.js
+* Express
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Instalação
+
+### 1. Clone o repositório
+
+```bash
+git clone <url-do-repositorio>
+```
+
+### 2. Instalação do Frontend
+
+```bash
+cd frontend
+npm install
+npm i react-router-dom
+```
+
+### 3. Instalação do Backend
+
+```bash
+cd backend
+npm install
+npm i express cors
+```
+
+## ▶️ Como executar
+
+### Frontend
+```bash
+cd frontend
+npm run dev
+```
+
+### Backend
+```bash
+cd backend
+npm start
+```
+
+## 📝 Licença
+
+Este projeto foi desenvolvido como parte de um hackathon educacional.
