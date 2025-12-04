@@ -16,7 +16,7 @@ html {
     /* border: 1px solid red; */
 
     width: 100%;
-    height: 100vh;
+    height: 120vh;
 
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@ html {
 .navbar-tela-inicio {
     /* border: 1px solid green; */
 
-    width: 99%;
+    width: 100%;
     height: 10vh;
 
     display: flex;
@@ -66,7 +66,7 @@ html {
     flex-direction: column;
 
     width: 100%;
-    height: 90vh;
+    height: 110vh;
 
     background-color: #FFFFFF;
 }
@@ -75,7 +75,7 @@ html {
     /* border: 1px solid yellow; */
 
     width: 100%;
-    height: 40%;
+    height: 41%;
 
     display: flex;
     flex-direction: row;
@@ -84,14 +84,14 @@ html {
 }
 
 .parte-superior-content img {
-    width: 90%;
-    height: 80%;
+    width: 98%;
+    height: 86%;
     object-fit: contain;
     border-radius: 20px;
 }
 
 .parte-inferior-content {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
     width: 100%;
     height: 60%;
@@ -103,7 +103,7 @@ html {
 }
 
 .parte-esquerda-tela-inicio-content {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 
     width: 45%;
     height: 100%;
@@ -115,23 +115,87 @@ html {
 }
 
 .parte-direita-tela-inicio-content {
-    border: 1px solid green;
+    /* border: 1px solid green; */
 
     width: 55%;
     height: 100%;
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
     justify-content: center;
+    gap: 8px;
 }
 
-.parte-direita-tela-inicio-content p {
+.titulo-modulos {
     font-family: 'Inter', sans-serif;
-    font-style: normal;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 30px;
-    color: #000000;
+    font-style: italic;
+    color: #181717;
 }
 
+.grupo-cards-horarios-content {
+    /* border: 1px solid purple; */
+
+    width: 90%;
+    height: 70%;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.card-horario-content {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.card-horario-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-horario-content p {
+       font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 30px;
+    font-style: normal;
+    color: #181717;
+}
+
+.card-img-content {
+    position: relative;
+    width: 100%;
+    height: 140px;
+    overflow: hidden;
+}
+
+.card-img-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-icon img {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+}
+
+.card-titulo {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #000000;
+    padding: 1.2rem 1rem 1rem 1rem;
+    margin: 0;
+}
