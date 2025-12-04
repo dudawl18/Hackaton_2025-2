@@ -1,9 +1,137 @@
-body {
+* {
+    box-sizing: border-box;
     margin: 0;
-    display: flex;
-    flex-direction: column;
+    padding: 0;
+
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 .toda-tela-inicial-content {
-    
+    /* border: 1px solid red; */
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
 }
+
+.navbar-tela-inicio {
+    /* border: 1px solid green; */
+
+    width: 99%;
+    height: 10vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: #EDEDED;
+    ;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.topicos-nav-content {
+    /* border: 1px solid blue; */
+
+    width: 20%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.topicos-nav-content a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.area-principal-tela-inicio-content {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 90vh;
+
+    background-color: #FFFFFF;
+}
+
+.parte-superior-content {
+    /* border: 1px solid yellow; */
+
+    width: 100%;
+    height: 40%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.parte-superior-content img {
+    width: 90%;
+    height: 80%;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.parte-inferior-content {
+    border: 1px solid red;
+
+    width: 100%;
+    height: 60%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.parte-esquerda-tela-inicio-content {
+    border: 1px solid blue;
+
+    width: 45%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.parte-direita-tela-inicio-content {
+    border: 1px solid green;
+
+    width: 55%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.parte-direita-tela-inicio-content p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 30px;
+    color: #000000;
+}
+

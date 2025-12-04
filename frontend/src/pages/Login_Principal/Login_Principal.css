@@ -71,6 +71,8 @@ nav {
     position: absolute;
     display: flex;
     bottom: 0dvh;
+    width: 50dvw;
+    height: 18dvh;
 }
 
 
